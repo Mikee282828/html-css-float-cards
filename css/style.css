@@ -5,7 +5,7 @@
 }
 
 .container{
-    width:80%;
+    width:70%;
     margin:auto;
 }
 
@@ -21,9 +21,14 @@ header{
 
 .profilo{
     background-color: black;
-    float:left;
     width:(100px/0.3);
-    margin-right:20px;
+    margin-right:40px;
+    margin-top:50px;
+    float:left;
+}
+
+.last{
+    margin-right:0;
 }
 
 .info{
@@ -48,4 +53,10 @@ header{
 
 .email{
     color:rgb(0, 183, 255);
+}
+
+.row::after{
+    content: "";
+    display:block;
+    clear:both;
 }
