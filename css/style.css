@@ -22,29 +22,30 @@ header{
 .profilo{
     background-color: black;
     float:left;
-
+    width:(100px/0.3);
+    margin-right:20px;
 }
 
 .info{
     float:left;
-    margin-left: 2vw;
-    margin-right:
+    width:((100px/0.3)*0.7);
+    margin-left:10px;
+    margin-right:50px;
+}
+
+.thumbn{
+    float:left;
+    width:100px;
 }
 
 .nome,.qualifica{
     color:white;
 }
-.nome{
-    margin-top:5%;
-}
-.thumbn{
-    float:left;
-    height:100px;
-}
+
 .nome,.qualifica,.email{
-    margin-bottom:5%;
-    
+    margin-top:10px;
 }
+
 .email{
     color:rgb(0, 183, 255);
 }
