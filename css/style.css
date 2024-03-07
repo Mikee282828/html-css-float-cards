@@ -22,12 +22,29 @@ header{
 .profilo{
     background-color: black;
     float:left;
+
 }
 
 .info{
-    float:right;
+    float:left;
+    margin-left: 2vw;
+    margin-right:
 }
 
 .nome,.qualifica{
     color:white;
+}
+.nome{
+    margin-top:5%;
+}
+.thumbn{
+    float:left;
+    height:100px;
+}
+.nome,.qualifica,.email{
+    margin-bottom:5%;
+    
+}
+.email{
+    color:rgb(0, 183, 255);
 }
