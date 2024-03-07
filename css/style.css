@@ -18,3 +18,16 @@ header{
     margin-bottom:4%;
     color:rgb(255, 0, 153);
 }
+
+.profilo{
+    background-color: black;
+    float:left;
+}
+
+.info{
+    float:right;
+}
+
+.nome,.qualifica{
+    color:white;
+}
